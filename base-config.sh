@@ -14,7 +14,8 @@ echo root:arek | chpasswd
 # You can remove the tlp package if you are installing on a desktop or vm
 
 #pacman -S grub efibootmgr networkmanager network-manager-applet dialog wpa_supplicant mtools dosfstools reflector base-devel linux-headers avahi xdg-user-dirs xdg-utils gvfs gvfs-smb nfs-utils inetutils dnsutils bluez bluez-utils cups hplip alsa-utils pipewire pipewire-alsa pipewire-pulse pipewire-jack bash-completion openssh rsync reflector acpi acpi_call tlp virt-manager qemu qemu-arch-extra edk2-ovmf bridge-utils dnsmasq vde2 openbsd-netcat ipset sof-firmware nss-mdns acpid os-prober ntfs-3g terminus-font
-pacman -S grub efibootmgr networkmanager dialog mtools dosfstools reflector base-devel linux-headers avahi xdg-user-dirs xdg-utils inetutils dnsutils rsync reflector acpi acpi_call tlp acpid os-prober ntfs-3g terminus-font
+pacman -S grub efibootmgr networkmanager dialog mtools dosfstools reflector base-devel linux-headers avahi xdg-user-dirs xdg-utils gvfs gvfs-smb nfs-utils inetutils dnsutils bash-completion openssh rsync reflector acpi acpi_call tlp virt-manager qemu qemu-arch-extra edk2-ovmf bridge-utils dnsmasq vde2 openbsd-netcat ipset sof-firmware nss-mdns acpid os-prober ntfs-3g terminus-font
+#pacman -S grub efibootmgr networkmanager dialog mtools dosfstools reflector base-devel linux-headers avahi xdg-user-dirs xdg-utils inetutils dnsutils rsync reflector acpi acpi_call tlp acpid os-prober ntfs-3g terminus-font
 
 # pacman -S --noconfirm xf86-video-amdgpu
 # pacman -S --noconfirm nvidia nvidia-utils nvidia-settings
