@@ -40,4 +40,10 @@ echo arek:arek | chpasswd
 
 echo "arek ALL=(ALL) ALL" >> /etc/sudoers.d/arek
 
+exit
+
+umount -R /mnt
+
+reboot
+
 
